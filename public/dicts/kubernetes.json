@@ -1,0 +1,58 @@
+[
+    {
+        "name": "kubectl explain",
+        "trans": [
+            "帮助",
+            "查看yaml语法中的帮助",
+            "pod.spec.affinity.podAffinity"
+        ]
+    },
+    {
+        "name": "kubectl create",
+        "trans": [
+            "创建资源",
+            "创建一个资源,支持文件创建和类型创建",
+            "kubectl create pod --image=nginx:1.20"
+        ]
+    },
+    {
+        "name": "kubectl delete",
+        "trans": [
+            "删除",
+            "删除一个资源,支持文件创建和类型创建",
+            "kubectl delete pod --image=nginx:1.20"
+        ]
+    },
+    {
+        "name": "affinity",
+        "trans": [
+            "亲和性",
+            "在yaml文件中创建POD或者Node的亲和性,位于spec下",
+            "spec.affinity"
+        ]
+    },
+    {
+        "name": "nodeAffinity",
+        "trans": [
+            "节点亲和性",
+            "在yaml文件中创建Node的亲和性,位于spec.affinity下",
+            "spec.affinity.nodeAffinity"
+        ]
+    },
+    {
+        "name": "requiredDuringSchedulingIgnoredDuringExecution",
+        "trans": [
+            "软亲和性",
+            "创建一个软亲和性对象,不强制要求POD必须创建在那里,位于spec.affinity.nodeAffinity下",
+            "spec.affinity.nodeAffinity.requiredDuringSchedulingIgnoredDuringExecution"
+        ]
+    },
+    {
+        "name": "preferredDuringSchedulingIgnoredDuringExecution",
+        "trans": [
+            "硬亲和性",
+            "创建一个硬亲和性对象,强制要求POD必须创建在那里,位于spec.affinity.nodeAffinity下",
+            "spec.affinity.nodeAffinity.preferredDuringSchedulingIgnoredDuringExecution"
+        ]
+    }
+]
