@@ -2782,6 +2782,17 @@ const programming: DictionaryResource[] = [
     languageCategory: 'code',
   },
   {
+    id: 'kubernetes',
+    name: 'K8s常用单词',
+    description: 'K8s用',
+    category: '代码练习',
+    tags: ['k8s'],
+    url: '/dicts/kubernetes.json',
+    length: 7,
+    language: 'code',
+    languageCategory: 'code',
+  },
+  {
     id: 'linuxCommand',
     name: 'Linux',
     description: 'Linux Command',
